@@ -11,18 +11,3 @@ This will use to create the cluster using the ECS of AWS.
 INPUTS: 
 
 
-| Name | Description | Type |
-| :---         |     :---:      |          ---: |
-| acm_certificate_arn   | Existing ACM Certificate
-ARN.     | String    |
-| aliases     | List of FQDN's - Used to set
-the Alternate Domain
-Names (CNAMEs) setting
-on Cloudfront       | list(string)      |
-|   allowed_methods           |   List of allowed methods
-(e.g. GET, PUT, POST,
-DELETE, HEAD) for AWS
-CloudFront             |    list(string)           |
-| cached_methods |List of cached methods
-(e.g. GET, PUT, POST,
-DELETE, HEAD| list(string) |
